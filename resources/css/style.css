@@ -93,7 +93,14 @@ nav {
 #teamtitle {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    align-items: center;
+    border-bottom: 1px solid #FF9922;
+    padding-bottom: 1rem;
+}
+
+#teamtitle p{
+    font-size: 3rem;
+    margin: 1rem;
 }
 
 #team {
@@ -110,8 +117,18 @@ nav {
     align-items: center;
 }
 
+#roshi h2 {
+    margin-top: 0;
+}
+
+.CEO {
+    font-size: 2rem;
+    margin: 0;
+}
+
 #roshi img {
     max-width: 100%;
     height: auto;
     border-radius: 2vw;
+
 }
