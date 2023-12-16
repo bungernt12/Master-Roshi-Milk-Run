@@ -1,0 +1,100 @@
+html {
+    background-color: rgb(0, 0, 44);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerleft{
+    width: 50%;
+    font-size: 3vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+    margin: 0 1vw;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    border-top: 1px solid #ff9922;
+    border-bottom: 1px solid #FF9922;
+    padding: 1rem 0;
+}
+
+#banner-text {
+    background-color: #FF9922;
+    color:  rgb(0, 0, 44);
+    font-size: 6vw;
+    padding: 2vw;
+    margin: 0;
+    border-radius: 10px;
+    height: 85%;
+}
+
+#banner-text h1 {
+    margin: 0;
+}
+
+#banner-image {
+    /*background: url("../images/Banner-milk-run.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    /*min-height: 300px;
+    max-height: 400px;*/
+}
+
+#banner-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#mission {
+    text-align: center;
+    width: 98%;
+    margin: 1rem auto;
+    
+}
+
+#mission h2 {
+    font-size: 2rem;
+}
+
+#mission p {
+    font-size: 1.5rem;
+}
+
+#ourproducts {
+    color:  #FF9922;
+    border: 1px solid #FF9922;
+    font-size: 6vw;
+    padding: 3vw;
+    margin: 0;
+    border-radius: 10px;
+    height: 85%;
+}
+
+#milk {  
+    background-color: #FF9922;
+    color:  rgb(0, 0, 44);
+    font-size: 6vw;
+    padding: 3vw;
+    margin: 0;
+    border-radius: 10px;
+    height: 85%;
+    }
