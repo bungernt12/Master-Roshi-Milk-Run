@@ -151,3 +151,47 @@ a:hover {
     gap: 1vw;
     margin-top: 1rem;
 }
+
+@media only screen and (max-width: 650px) {
+    
+}
+
+@media only screen and (max-width: 650px) {
+    nav {
+        padding: 2rem;
+    }
+
+    nav a {
+        font-size: 2rem;
+    }
+    
+    .banner {
+        grid-template-columns: 1fr;
+        padding: 3rem 0;
+    }
+
+    #banner-text {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    #mission h2 {
+        font-size: 5rem;
+    }
+
+    #mission p {
+        font-size: 2.5rem;
+    }
+
+    #team {
+        flex-direction: column;
+    }
+
+    #roshi {
+        margin-bottom: 2rem;
+    }
+    
+    #roshi h2 {
+        font-size: 5rem;
+    }
+}
